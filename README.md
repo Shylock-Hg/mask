@@ -2,7 +2,7 @@
 # Usage
 
 ```typst
-import "@preview/mask:0.1.0": mask-str
+import "@preview/zheyan:0.1.0": mask-str
 
 #let masked_str =  mask-str(str: "Hello World!")
 ```
