@@ -2,12 +2,12 @@
 # Usage
 
 ```typst
-import "@preview/mask:0.1.0": mask_str
+import "@preview/mask:0.1.0": mask-str
 
-#let masked_str =  mask_str(str: "Hello World!")
+#let masked_str =  mask-str(str: "Hello World!")
 ```
 
-`masked_str` will become `************`.
+`masked-str` will become `************`.
 
 To compile with mask:
 ```

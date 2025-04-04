@@ -8,4 +8,4 @@
 
 #let _mask_flag = if "mask" in sys.inputs { sys.inputs.at("mask") == "true" } else { false }
 
-#let mask_str(str: "", m: "*") = if _mask_flag { _mask(str: str, m: m) } else { str }
+#let mask-str(str: "", m: "*") = if _mask_flag { _mask(str: str, m: m) } else { str }
