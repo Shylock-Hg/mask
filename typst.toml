@@ -1,15 +1,15 @@
 # for a description of available keys, see https://github.com/typst/packages/?tab=readme-ov-file#package-format
 
 [package]
-name = ""
+name = "mask"
 version = "0.1.0"
 entrypoint = "src/lib.typ"
-authors = []
+authors = ["Shylock Hg"]
 license = "Unlicense"
-description = ""
-homepage = ""
-repository = ""
-keywords = []
+description = "Util to mask string"
+homepage = "https://github.com/shylock-hg/mask"
+repository = "https://github.com/shylock-hg/mask"
+keywords = ["mask"]
 categories = []
 disciplines = []
 # compiler = ""
